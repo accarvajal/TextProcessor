@@ -1,0 +1,621 @@
+2024-10-29 19:39:32.423 -05:00 [INF] Now listening on: http://localhost:5277
+2024-10-29 19:39:32.463 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 19:39:32.465 -05:00 [INF] Hosting environment: Development
+2024-10-29 19:39:32.466 -05:00 [INF] Content root path: C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API
+2024-10-29 19:52:03.412 -05:00 [INF] Application is shutting down...
+2024-10-29 19:52:29.799 -05:00 [INF] Now listening on: https://localhost:7170
+2024-10-29 19:52:29.899 -05:00 [INF] Now listening on: http://localhost:5277
+2024-10-29 19:52:30.014 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 19:52:30.018 -05:00 [INF] Hosting environment: Development
+2024-10-29 19:52:30.019 -05:00 [INF] Content root path: C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API
+2024-10-29 19:54:10.126 -05:00 [INF] Now listening on: http://localhost:5277
+2024-10-29 19:54:10.252 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 19:54:10.254 -05:00 [INF] Hosting environment: Development
+2024-10-29 19:54:10.256 -05:00 [INF] Content root path: C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API
+2024-10-29 19:54:10.719 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger - null null
+2024-10-29 19:54:11.271 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger - 301 0 null 560.0328ms
+2024-10-29 19:54:11.282 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/index.html - null null
+2024-10-29 19:54:11.431 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/index.html - 200 null text/html;charset=utf-8 151.2806ms
+2024-10-29 19:54:11.448 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-bundle.js - null null
+2024-10-29 19:54:11.450 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-29 19:54:11.451 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui.css - null null
+2024-10-29 19:54:11.511 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_vs/browserLink - null null
+2024-10-29 19:54:11.511 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-29 19:54:11.530 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 18.365ms
+2024-10-29 19:54:11.549 -05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-10-29 19:54:11.586 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-29 19:54:11.599 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui.css - 200 152034 text/css 148.2929ms
+2024-10-29 19:54:11.608 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 23.8693ms
+2024-10-29 19:54:11.578 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-29 19:54:11.615 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-29 19:54:11.635 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-standalone-preset.js - null null
+2024-10-29 19:54:11.635 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 185.9586ms
+2024-10-29 19:54:11.637 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 189.328ms
+2024-10-29 19:54:11.649 -05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-10-29 19:54:11.664 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 29.409ms
+2024-10-29 19:54:11.699 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.5684ms
+2024-10-29 19:54:12.322 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-bundle.js - null null
+2024-10-29 19:54:12.327 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_vs/browserLink - null null
+2024-10-29 19:54:12.335 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - null null
+2024-10-29 19:54:12.357 -05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-10-29 19:54:12.358 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.0932ms
+2024-10-29 19:54:12.360 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 38.296ms
+2024-10-29 19:54:12.397 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/favicon-32x32.png - null null
+2024-10-29 19:54:12.405 -05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-10-29 19:54:12.407 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/favicon-32x32.png - 200 628 image/png 10.0605ms
+2024-10-29 19:54:12.537 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 202.3683ms
+2024-10-29 19:59:53.803 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 19:59:53.823 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 19:59:53.829 -05:00 [INF] CORS policy execution successful.
+2024-10-29 19:59:53.832 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 33.5435ms
+2024-10-29 19:59:53.846 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 19:59:53.855 -05:00 [INF] CORS policy execution successful.
+2024-10-29 19:59:53.861 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 19:59:53.918 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 20:00:02.482 -05:00 [INF] Starting job 3425e484-46fa-4fff-8236-779b7cfa8b3d for input: Aldemar Cuartas
+2024-10-29 20:00:02.486 -05:00 [INF] Starting text processing for input: Aldemar Cuartas
+2024-10-29 20:00:02.501 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 20:00:02.514 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 8581.6621ms
+2024-10-29 20:00:02.516 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:00:02.518 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 8671.1826ms
+2024-10-29 20:00:10.409 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 20:00:10.414 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:00:10.416 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 6.2812ms
+2024-10-29 20:00:10.420 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 20:00:10.424 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:00:10.425 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:00:10.428 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 20:00:12.470 -05:00 [INF] Starting job a9c596b5-0be2-4c0b-b380-40630e4d5bca for input: Aldemar Cuartas
+2024-10-29 20:00:12.472 -05:00 [INF] Starting text processing for input: Aldemar Cuartas
+2024-10-29 20:00:12.474 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 20:00:12.476 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 2044.9572ms
+2024-10-29 20:00:12.477 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:00:12.478 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 2058.0444ms
+2024-10-29 20:02:21.417 -05:00 [INF] Completed text processing for input: Aldemar Cuartas
+2024-10-29 20:02:22.981 -05:00 [INF] Completed text processing for input: Aldemar Cuartas
+2024-10-29 20:34:34.333 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 20:34:34.342 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:34:34.344 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 10.8111ms
+2024-10-29 20:34:34.354 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 20:34:34.357 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:34:34.359 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:34:34.360 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 20:34:43.442 -05:00 [INF] Starting job 988d5761-1aac-49a1-9652-9c79ad4508c1 for input: Aldemar Cuartas
+2024-10-29 20:34:43.444 -05:00 [INF] Starting text processing for input: Aldemar Cuartas
+2024-10-29 20:34:56.021 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 20:34:56.023 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 21659.3417ms
+2024-10-29 20:34:56.024 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:34:56.026 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 21672.2943ms
+2024-10-29 20:36:58.893 -05:00 [INF] Completed text processing for input: Aldemar Cuartas
+2024-10-29 20:37:47.096 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 20:37:47.103 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:37:47.105 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 8.8886ms
+2024-10-29 20:37:47.111 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 20:37:47.114 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:37:47.116 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:37:47.117 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 20:37:49.028 -05:00 [INF] Starting job 06623008-fc43-4e63-bea3-e07185d75be7 for input: Aldemar Cuartas
+2024-10-29 20:37:49.030 -05:00 [INF] Starting text processing for input: Aldemar Cuartas
+2024-10-29 20:37:49.031 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 20:37:49.033 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 1914.4876ms
+2024-10-29 20:37:49.035 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:37:49.036 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 1924.9136ms
+2024-10-29 20:39:55.897 -05:00 [INF] Completed text processing for input: Aldemar Cuartas
+2024-10-29 20:46:25.745 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 20:46:25.752 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:46:25.753 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 8.6444ms
+2024-10-29 20:46:25.761 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 20:46:25.766 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:46:25.767 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:46:25.769 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 20:46:28.220 -05:00 [INF] Starting job 1c3fbc49-94d1-414c-8ddb-4feaad2f04bd for input: Aldemar Cuartas
+2024-10-29 20:46:28.221 -05:00 [INF] Starting text processing for input: Aldemar Cuartas
+2024-10-29 20:46:28.223 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 20:46:28.223 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 2452.7886ms
+2024-10-29 20:46:28.225 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:46:28.227 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 2465.2695ms
+2024-10-29 20:48:56.972 -05:00 [INF] Completed text processing for input: Aldemar Cuartas
+2024-10-29 20:53:29.881 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 20:53:29.888 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:53:29.890 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 9.1756ms
+2024-10-29 20:53:29.900 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 20:53:29.904 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:53:29.905 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:53:29.906 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 20:53:32.098 -05:00 [INF] Starting job 745b2e22-7ac5-4401-a367-4eb18ad5e5cb for input: Aldemar Cuartas
+2024-10-29 20:53:32.099 -05:00 [INF] Starting text processing for input: Aldemar Cuartas
+2024-10-29 20:53:32.102 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 20:53:32.105 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 2192.538ms
+2024-10-29 20:53:32.107 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 20:53:32.109 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 2208.9355ms
+2024-10-29 20:53:32.116 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/745b2e22-7ac5-4401-a367-4eb18ad5e5cb - null null
+2024-10-29 20:53:32.119 -05:00 [INF] CORS policy execution successful.
+2024-10-29 20:53:32.121 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 20:53:32.125 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 20:53:36.140 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 20:53:36.141 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 4013.6454ms
+2024-10-29 20:53:36.142 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 20:53:36.143 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/745b2e22-7ac5-4401-a367-4eb18ad5e5cb - 404 null text/plain; charset=utf-8 4026.3847ms
+2024-10-29 20:55:48.030 -05:00 [INF] Completed text processing for input: Aldemar Cuartas
+2024-10-29 21:01:14.567 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:01:14.579 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:01:14.582 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 15.1756ms
+2024-10-29 21:01:14.591 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:01:14.597 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:01:14.598 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:01:14.600 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:01:14.603 -05:00 [INF] Starting job dbec4a9c-0068-4689-bff9-109964836ce9 for input: Aldemar CUartas
+2024-10-29 21:01:14.604 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:01:14.606 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:01:14.607 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 4.5416ms
+2024-10-29 21:01:14.608 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:01:14.609 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 18.4229ms
+2024-10-29 21:01:14.616 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/dbec4a9c-0068-4689-bff9-109964836ce9 - null null
+2024-10-29 21:01:14.619 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:01:14.619 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:01:14.621 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:01:37.453 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 21:01:37.456 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 22834.2568ms
+2024-10-29 21:01:37.458 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:01:37.460 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/dbec4a9c-0068-4689-bff9-109964836ce9 - 404 null text/plain; charset=utf-8 22844.5646ms
+2024-10-29 21:01:57.658 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:01:57.669 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:01:57.670 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 12.4735ms
+2024-10-29 21:01:57.680 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:01:57.684 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:01:57.684 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:01:57.686 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:01:57.688 -05:00 [INF] Starting job 56cc1b54-751e-4d70-af58-219ea157f56c for input: Aldemar CUartas
+2024-10-29 21:01:57.690 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:01:57.692 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:01:57.694 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 6.9854ms
+2024-10-29 21:01:57.698 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:01:57.699 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 19.1929ms
+2024-10-29 21:01:57.704 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/56cc1b54-751e-4d70-af58-219ea157f56c - null null
+2024-10-29 21:01:57.709 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:01:57.712 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:01:57.714 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:01:59.512 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 21:01:59.513 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 1796.647ms
+2024-10-29 21:01:59.514 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:01:59.516 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/56cc1b54-751e-4d70-af58-219ea157f56c - 404 null text/plain; charset=utf-8 1812.1791ms
+2024-10-29 21:02:02.469 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:02:02.473 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:02:02.474 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:02:02.475 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:02:02.477 -05:00 [INF] Starting job 68a4483c-511e-4e81-8b72-2084597a73da for input: Aldemar CUartas
+2024-10-29 21:02:02.478 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:02:02.479 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:02:02.480 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 3.552ms
+2024-10-29 21:02:02.482 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:02:02.482 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 13.8724ms
+2024-10-29 21:02:02.487 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/68a4483c-511e-4e81-8b72-2084597a73da - null null
+2024-10-29 21:02:02.489 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:02:02.490 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:02:02.491 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:04:32.870 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 21:04:32.882 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 150389.5796ms
+2024-10-29 21:04:32.883 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:04:32.884 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/68a4483c-511e-4e81-8b72-2084597a73da - 404 null text/plain; charset=utf-8 150397.038ms
+2024-10-29 21:06:17.210 -05:00 [INF] Completed text processing for input: Aldemar CUartas
+2024-10-29 21:06:41.757 -05:00 [INF] Completed text processing for input: Aldemar CUartas
+2024-10-29 21:06:43.813 -05:00 [INF] Completed text processing for input: Aldemar CUartas
+2024-10-29 21:09:17.147 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:09:17.157 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:09:17.158 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 10.4918ms
+2024-10-29 21:09:17.167 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:09:17.171 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:09:17.172 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:09:17.175 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:09:19.054 -05:00 [INF] Starting job 9a5eaee6-ce65-4727-935a-0fd9842ab48e for input: Aldemar CUartas
+2024-10-29 21:09:20.107 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:09:25.870 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:09:25.872 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 8695.5513ms
+2024-10-29 21:09:25.873 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:09:25.876 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 8708.983ms
+2024-10-29 21:09:25.882 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/9a5eaee6-ce65-4727-935a-0fd9842ab48e - null null
+2024-10-29 21:09:25.885 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:09:25.886 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:09:25.887 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:09:34.027 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 21:09:34.029 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 8139.7261ms
+2024-10-29 21:09:34.032 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:09:34.033 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/9a5eaee6-ce65-4727-935a-0fd9842ab48e - 404 null text/plain; charset=utf-8 8151.368ms
+2024-10-29 21:09:37.443 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:09:37.446 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:09:37.449 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 6.4806ms
+2024-10-29 21:09:37.457 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:09:37.460 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:09:37.461 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:09:37.461 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:09:55.432 -05:00 [INF] Starting job b325ef1f-11e1-41b6-a039-610ec979fc7c for input: Aldemar CUartas
+2024-10-29 21:09:57.150 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:10:00.616 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:10:00.618 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 23154.2707ms
+2024-10-29 21:10:00.619 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:10:00.621 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 23164.1013ms
+2024-10-29 21:10:00.626 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/b325ef1f-11e1-41b6-a039-610ec979fc7c - null null
+2024-10-29 21:10:00.628 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:10:00.630 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:10:00.632 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:10:41.525 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 21:10:41.535 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 40901.2731ms
+2024-10-29 21:10:49.976 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:10:49.983 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/b325ef1f-11e1-41b6-a039-610ec979fc7c - 404 null text/plain; charset=utf-8 49356.7681ms
+2024-10-29 21:10:56.381 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:10:56.386 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:10:56.389 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 7.7696ms
+2024-10-29 21:10:56.393 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:10:56.397 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:10:56.398 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:10:56.399 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:11:01.716 -05:00 [INF] Starting job f801efa3-9167-46f3-b416-70e1aa90ea98 for input: Aldemar CUartas
+2024-10-29 21:11:06.260 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:11:09.941 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:11:09.943 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 13542.2535ms
+2024-10-29 21:11:09.945 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:11:09.946 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 13552.9187ms
+2024-10-29 21:11:09.951 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/f801efa3-9167-46f3-b416-70e1aa90ea98 - null null
+2024-10-29 21:11:09.954 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:11:09.955 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:11:09.957 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:11:59.616 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 21:11:59.619 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 49660.7737ms
+2024-10-29 21:11:59.621 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:11:59.623 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/f801efa3-9167-46f3-b416-70e1aa90ea98 - 404 null text/plain; charset=utf-8 49671.608ms
+2024-10-29 21:12:02.026 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:12:02.033 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:12:02.034 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 8.4ms
+2024-10-29 21:12:02.041 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:12:02.044 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:12:02.045 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:12:02.046 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:12:18.674 -05:00 [INF] Starting job 1ec97f62-670e-4fb5-b22b-6d8f1b2d4bda for input: Aldemar CUartas
+2024-10-29 21:12:19.242 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:12:27.238 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:12:27.242 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 25194.3564ms
+2024-10-29 21:12:27.245 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:12:27.245 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 25204.0182ms
+2024-10-29 21:12:27.249 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/1ec97f62-670e-4fb5-b22b-6d8f1b2d4bda - null null
+2024-10-29 21:12:27.252 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:12:27.253 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:12:27.254 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:25:00.756 -05:00 [INF] Now listening on: http://localhost:5277
+2024-10-29 21:25:00.834 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 21:25:00.836 -05:00 [INF] Hosting environment: Development
+2024-10-29 21:25:00.838 -05:00 [INF] Content root path: C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API
+2024-10-29 21:25:01.584 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/index.html - null null
+2024-10-29 21:25:01.928 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/index.html - 200 null text/html;charset=utf-8 352.0277ms
+2024-10-29 21:25:01.988 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-29 21:25:01.988 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_vs/browserLink - null null
+2024-10-29 21:25:02.004 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 16.7385ms
+2024-10-29 21:25:02.092 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 104.5748ms
+2024-10-29 21:25:02.458 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - null null
+2024-10-29 21:25:02.592 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.6545ms
+2024-10-29 21:25:13.467 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:25:13.479 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 21:25:13.483 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:25:13.486 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 18.9236ms
+2024-10-29 21:25:13.492 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:25:13.498 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:25:13.504 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:25:13.541 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:25:23.572 -05:00 [INF] Starting job f0a1ae00-b4bb-43c8-80a1-17d9a437f95d for input: Aldemar CUartas
+2024-10-29 21:25:25.369 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:25:26.858 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:25:26.869 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 13319.316ms
+2024-10-29 21:25:26.871 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:25:26.873 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 13380.7714ms
+2024-10-29 21:25:26.883 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/f0a1ae00-b4bb-43c8-80a1-17d9a437f95d - null null
+2024-10-29 21:25:26.886 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:25:26.889 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:25:26.893 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:25:34.732 -05:00 [INF] Starting text processing for input: f0a1ae00-b4bb-43c8-80a1-17d9a437f95d
+2024-10-29 21:27:46.132 -05:00 [INF] Completed text processing for input: Aldemar CUartas
+2024-10-29 21:29:18.727 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/f0a1ae00-b4bb-43c8-80a1-17d9a437f95d - null null
+2024-10-29 21:29:18.731 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:29:18.733 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/f0a1ae00-b4bb-43c8-80a1-17d9a437f95d - 204 null null 6.1809ms
+2024-10-29 21:29:18.743 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/f0a1ae00-b4bb-43c8-80a1-17d9a437f95d - application/json 2
+2024-10-29 21:29:18.750 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:29:18.751 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 21:29:18.756 -05:00 [INF] Route matched with {action = "CancelProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:29:25.410 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-29 21:29:25.411 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API) in 6651.7842ms
+2024-10-29 21:29:25.414 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 21:29:25.415 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/f0a1ae00-b4bb-43c8-80a1-17d9a437f95d - 200 0 null 6671.9711ms
+2024-10-29 21:29:35.947 -05:00 [INF] Completed text processing for input: f0a1ae00-b4bb-43c8-80a1-17d9a437f95d
+2024-10-29 21:29:35.952 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 249056.1054ms
+2024-10-29 21:29:35.955 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:29:35.959 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/f0a1ae00-b4bb-43c8-80a1-17d9a437f95d - 200 null text/event-stream 249076.7368ms
+2024-10-29 21:29:37.937 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:29:37.941 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:29:37.943 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 5.7959ms
+2024-10-29 21:29:37.948 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:29:37.954 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:29:37.955 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:29:37.959 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:29:37.962 -05:00 [INF] Starting job 5d1db58a-fd9e-42a9-b999-6e284835fcff for input: Aldemar CUartas
+2024-10-29 21:29:37.964 -05:00 [INF] Starting text processing for input: Aldemar CUartas
+2024-10-29 21:29:37.967 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:29:37.970 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 9.4375ms
+2024-10-29 21:29:37.972 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:29:37.974 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 25.6726ms
+2024-10-29 21:29:37.979 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/5d1db58a-fd9e-42a9-b999-6e284835fcff - null null
+2024-10-29 21:29:37.984 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:29:37.986 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:29:37.988 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:29:37.992 -05:00 [INF] Starting text processing for input: 5d1db58a-fd9e-42a9-b999-6e284835fcff
+2024-10-29 21:31:44.364 -05:00 [INF] Completed text processing for input: Aldemar CUartas
+2024-10-29 21:33:32.684 -05:00 [INF] Completed text processing for input: 5d1db58a-fd9e-42a9-b999-6e284835fcff
+2024-10-29 21:33:32.686 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 234694.8841ms
+2024-10-29 21:33:32.691 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:33:32.694 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/5d1db58a-fd9e-42a9-b999-6e284835fcff - 200 null text/event-stream 234714.8505ms
+2024-10-29 21:46:33.996 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:46:34.005 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:46:34.006 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 12.0566ms
+2024-10-29 21:46:34.017 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 26
+2024-10-29 21:46:34.021 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:46:34.023 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:46:34.025 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:46:34.029 -05:00 [INF] Starting job 54a3f0c5-f651-4be9-8bd6-ab9eabd55b50 for input: Aldemar Cuartas
+2024-10-29 21:46:34.030 -05:00 [INF] Starting text processing for input: Aldemar Cuartas
+2024-10-29 21:46:34.032 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:46:34.033 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 4.6129ms
+2024-10-29 21:46:34.034 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:46:34.035 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 18.5273ms
+2024-10-29 21:46:34.042 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/54a3f0c5-f651-4be9-8bd6-ab9eabd55b50 - null null
+2024-10-29 21:46:34.045 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:46:34.046 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:46:34.047 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:46:34.048 -05:00 [INF] Starting text processing for input: 54a3f0c5-f651-4be9-8bd6-ab9eabd55b50
+2024-10-29 21:48:51.604 -05:00 [INF] Completed text processing for input: Aldemar Cuartas
+2024-10-29 21:50:37.498 -05:00 [INF] Completed text processing for input: 54a3f0c5-f651-4be9-8bd6-ab9eabd55b50
+2024-10-29 21:50:37.502 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 243453.4722ms
+2024-10-29 21:50:37.506 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:50:37.509 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/54a3f0c5-f651-4be9-8bd6-ab9eabd55b50 - 200 null text/event-stream 243467.2223ms
+2024-10-29 21:54:01.683 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:54:01.686 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:54:01.687 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 4.5107ms
+2024-10-29 21:54:01.693 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 24
+2024-10-29 21:54:01.695 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:54:01.696 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:54:01.698 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:54:01.700 -05:00 [INF] Starting job abf3b960-521d-484b-8600-f28ab8184e1f for input: Hello, World!
+2024-10-29 21:54:01.701 -05:00 [INF] Starting text processing for input: Hello, World!
+2024-10-29 21:54:01.702 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:54:01.703 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 3.614ms
+2024-10-29 21:54:01.704 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:54:01.704 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 11.6635ms
+2024-10-29 21:54:01.709 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/abf3b960-521d-484b-8600-f28ab8184e1f - null null
+2024-10-29 21:54:01.711 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:54:01.713 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:54:01.715 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:54:04.401 -05:00 [INF] Starting text processing for input: abf3b960-521d-484b-8600-f28ab8184e1f
+2024-10-29 21:54:42.567 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/abf3b960-521d-484b-8600-f28ab8184e1f - null null
+2024-10-29 21:54:42.572 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:54:42.574 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/abf3b960-521d-484b-8600-f28ab8184e1f - 204 null null 6.2164ms
+2024-10-29 21:54:42.588 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/abf3b960-521d-484b-8600-f28ab8184e1f - application/json 2
+2024-10-29 21:54:42.593 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:54:42.594 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 21:54:42.596 -05:00 [INF] Route matched with {action = "CancelProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:54:42.601 -05:00 [INF] Job abf3b960-521d-484b-8600-f28ab8184e1f cancelled successfully
+2024-10-29 21:54:42.678 -05:00 [INF] Job abf3b960-521d-484b-8600-f28ab8184e1f was cancelled
+2024-10-29 21:54:42.683 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-29 21:54:42.685 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API) in 86.0153ms
+2024-10-29 21:54:42.687 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 21:54:42.688 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/abf3b960-521d-484b-8600-f28ab8184e1f - 200 0 null 100.4746ms
+2024-10-29 21:55:57.193 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 115475.5996ms
+2024-10-29 21:55:57.209 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:55:57.346 -05:00 [ERR] An unhandled exception occurred
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TextProcessor.Infrastructure.Services.TextProcessingService.ProcessTextAsync(String input, CancellationToken cancellationToken)+MoveNext() in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Services\TextProcessingService.cs:line 31
+   at TextProcessor.Infrastructure.Services.TextProcessingService.ProcessTextAsync(String input, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at TextProcessor.API.Results.StreamingResult.ExecuteResultAsync(ActionContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API\Results\StreamingResult.cs:line 26
+   at TextProcessor.API.Results.StreamingResult.ExecuteResultAsync(ActionContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API\Results\StreamingResult.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultFilters>g__Awaited|28_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at TextProcessor.Infrastructure.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-10-29 21:55:57.640 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at TextProcessor.Infrastructure.Middleware.ErrorHandlingMiddleware.HandleExceptionAsync(HttpContext context, Exception exception) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 34
+   at TextProcessor.Infrastructure.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 28
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-29 21:55:57.646 -05:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-10-29 21:55:57.651 -05:00 [ERR] Connection id "0HN7OH877EL1U", Request id "0HN7OH877EL1U:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at TextProcessor.Infrastructure.Middleware.ErrorHandlingMiddleware.HandleExceptionAsync(HttpContext context, Exception exception) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 34
+   at TextProcessor.Infrastructure.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 28
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+   at Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2024-10-29 21:55:57.673 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/abf3b960-521d-484b-8600-f28ab8184e1f - 200 null text/event-stream 115963.9382ms
+2024-10-29 21:56:08.716 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 21:56:08.721 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:56:08.723 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 7.6236ms
+2024-10-29 21:56:08.763 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 24
+2024-10-29 21:56:08.768 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:56:08.769 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:56:08.771 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:56:08.773 -05:00 [INF] Starting job 320ab126-46d5-4400-8e48-7513e07b2aa2 for input: Hello, World!
+2024-10-29 21:56:08.775 -05:00 [INF] Starting text processing for input: Hello, World!
+2024-10-29 21:56:08.780 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 21:56:08.782 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 9.251ms
+2024-10-29 21:56:08.784 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 21:56:08.785 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 22.2789ms
+2024-10-29 21:56:08.792 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/320ab126-46d5-4400-8e48-7513e07b2aa2 - null null
+2024-10-29 21:56:08.795 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:56:08.796 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 21:56:08.797 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:56:10.898 -05:00 [INF] Starting text processing for input: 320ab126-46d5-4400-8e48-7513e07b2aa2
+2024-10-29 21:56:18.387 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/320ab126-46d5-4400-8e48-7513e07b2aa2 - null null
+2024-10-29 21:56:18.392 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:56:18.393 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/320ab126-46d5-4400-8e48-7513e07b2aa2 - 204 null null 5.7303ms
+2024-10-29 21:56:18.398 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/320ab126-46d5-4400-8e48-7513e07b2aa2 - application/json 2
+2024-10-29 21:56:18.400 -05:00 [INF] CORS policy execution successful.
+2024-10-29 21:56:18.401 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 21:56:18.403 -05:00 [INF] Route matched with {action = "CancelProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 21:56:20.525 -05:00 [INF] Job 320ab126-46d5-4400-8e48-7513e07b2aa2 cancelled successfully
+2024-10-29 21:56:23.316 -05:00 [INF] Job 320ab126-46d5-4400-8e48-7513e07b2aa2 was cancelled
+2024-10-29 21:56:23.317 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-29 21:56:23.324 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API) in 4919.4243ms
+2024-10-29 21:56:23.325 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 21:56:23.327 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/320ab126-46d5-4400-8e48-7513e07b2aa2 - 200 0 null 4929.7889ms
+2024-10-29 22:00:03.115 -05:00 [INF] Completed text processing for input: 320ab126-46d5-4400-8e48-7513e07b2aa2
+2024-10-29 22:00:03.117 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 234317.0369ms
+2024-10-29 22:00:03.120 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:00:03.122 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/320ab126-46d5-4400-8e48-7513e07b2aa2 - 200 null text/event-stream 234330.3934ms
+2024-10-29 22:06:24.218 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 22:06:24.228 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:06:24.229 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 14.5478ms
+2024-10-29 22:06:24.233 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 24
+2024-10-29 22:06:24.238 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:06:24.239 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 22:06:24.240 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:06:24.242 -05:00 [INF] Starting job 20260041-65ff-4efa-b40e-3d60e5049a85 for input: Hello, World!
+2024-10-29 22:06:24.243 -05:00 [INF] Starting text processing for input: Hello, World!
+2024-10-29 22:06:24.244 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 22:06:24.246 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 3.9878ms
+2024-10-29 22:06:24.247 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 22:06:24.249 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 15.8517ms
+2024-10-29 22:06:24.254 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/20260041-65ff-4efa-b40e-3d60e5049a85 - null null
+2024-10-29 22:06:24.256 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:06:24.257 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:06:24.258 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:06:26.127 -05:00 [INF] Starting text processing for input: 20260041-65ff-4efa-b40e-3d60e5049a85
+2024-10-29 22:08:28.197 -05:00 [INF] Completed text processing for input: Hello, World!
+2024-10-29 22:10:33.570 -05:00 [INF] Completed text processing for input: 20260041-65ff-4efa-b40e-3d60e5049a85
+2024-10-29 22:10:33.572 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 249311.7167ms
+2024-10-29 22:10:33.574 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:10:33.577 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/20260041-65ff-4efa-b40e-3d60e5049a85 - 200 null text/event-stream 249322.4417ms
+2024-10-29 22:29:44.989 -05:00 [INF] Now listening on: http://localhost:5277
+2024-10-29 22:29:45.079 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-29 22:29:45.081 -05:00 [INF] Hosting environment: Development
+2024-10-29 22:29:45.083 -05:00 [INF] Content root path: C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API
+2024-10-29 22:29:45.593 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/index.html - null null
+2024-10-29 22:29:46.029 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/index.html - 200 null text/html;charset=utf-8 445.4907ms
+2024-10-29 22:29:46.045 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - null null
+2024-10-29 22:29:46.054 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 9.3028ms
+2024-10-29 22:29:46.099 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_vs/browserLink - null null
+2024-10-29 22:29:46.183 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.5612ms
+2024-10-29 22:29:46.703 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - null null
+2024-10-29 22:29:46.890 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 187.0308ms
+2024-10-29 22:30:22.088 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 22:30:22.100 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-10-29 22:30:22.103 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:30:22.105 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 17.6837ms
+2024-10-29 22:30:22.113 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 24
+2024-10-29 22:30:22.117 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:30:22.121 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 22:30:22.145 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:30:22.177 -05:00 [INF] Starting job 3addfbb2-671e-40d8-91f3-80b1a1a78569 for input: Hello, World!
+2024-10-29 22:30:22.183 -05:00 [INF] Starting text processing for input: Hello, World!
+2024-10-29 22:30:22.198 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 22:30:22.206 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 52.3608ms
+2024-10-29 22:30:22.208 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 22:30:22.209 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 96.5324ms
+2024-10-29 22:30:22.214 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/3addfbb2-671e-40d8-91f3-80b1a1a78569 - null null
+2024-10-29 22:30:22.217 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:30:22.218 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:30:22.222 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:31:58.117 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/3addfbb2-671e-40d8-91f3-80b1a1a78569 - null null
+2024-10-29 22:31:58.126 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:31:58.128 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/cancel/3addfbb2-671e-40d8-91f3-80b1a1a78569 - 204 null null 11.1898ms
+2024-10-29 22:31:58.133 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/3addfbb2-671e-40d8-91f3-80b1a1a78569 - application/json 2
+2024-10-29 22:31:58.136 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:31:58.138 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 22:31:58.145 -05:00 [INF] Route matched with {action = "CancelProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CancelProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:32:01.040 -05:00 [INF] Job 3addfbb2-671e-40d8-91f3-80b1a1a78569 cancelled successfully
+2024-10-29 22:32:01.106 -05:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-10-29 22:32:01.115 -05:00 [INF] Job 3addfbb2-671e-40d8-91f3-80b1a1a78569 was cancelled
+2024-10-29 22:32:01.116 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API) in 2969.1429ms
+2024-10-29 22:32:01.119 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.CancelProcessing (TextProcessor.API)'
+2024-10-29 22:32:01.120 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/cancel/3addfbb2-671e-40d8-91f3-80b1a1a78569 - 200 0 null 2987.7422ms
+2024-10-29 22:32:01.128 -05:00 [INF] Starting text processing for input: 3addfbb2-671e-40d8-91f3-80b1a1a78569
+2024-10-29 22:32:01.247 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 99023.3105ms
+2024-10-29 22:32:01.250 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:32:01.284 -05:00 [ERR] An unhandled exception occurred
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at TextProcessor.Infrastructure.Services.TextProcessingService.ProcessTextAsync(String input, CancellationToken cancellationToken)+MoveNext() in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Services\TextProcessingService.cs:line 31
+   at TextProcessor.Infrastructure.Services.TextProcessingService.ProcessTextAsync(String input, CancellationToken cancellationToken)+System.Threading.Tasks.Sources.IValueTaskSource<System.Boolean>.GetResult()
+   at TextProcessor.API.Results.StreamingResult.ExecuteResultAsync(ActionContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API\Results\StreamingResult.cs:line 26
+   at TextProcessor.API.Results.StreamingResult.ExecuteResultAsync(ActionContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API\Results\StreamingResult.cs:line 26
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at TextProcessor.Infrastructure.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.Infrastructure\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-10-29 22:32:01.345 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/3addfbb2-671e-40d8-91f3-80b1a1a78569 - 400 null application/json 99130.3836ms
+2024-10-29 22:32:28.348 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - null null
+2024-10-29 22:32:28.353 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:32:28.356 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5277/api/textprocessing/process - 204 null null 7.8981ms
+2024-10-29 22:32:28.367 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - application/json 24
+2024-10-29 22:32:28.371 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:32:28.373 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 22:32:28.375 -05:00 [INF] Route matched with {action = "StartProcessing", controller = "TextProcessing"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] StartProcessing(TextProcessor.Application.Models.ProcessingRequest) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:32:28.377 -05:00 [INF] Starting job 4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 for input: Hello, World!
+2024-10-29 22:32:28.378 -05:00 [INF] Starting text processing for input: Hello, World!
+2024-10-29 22:32:28.381 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-10-29 22:32:28.384 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API) in 7.3013ms
+2024-10-29 22:32:28.385 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StartProcessing (TextProcessor.API)'
+2024-10-29 22:32:28.397 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5277/api/textprocessing/process - 200 null text/plain; charset=utf-8 30.6934ms
+2024-10-29 22:32:28.402 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - null null
+2024-10-29 22:32:28.406 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:32:28.407 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:32:28.409 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:34:38.639 -05:00 [INF] Completed text processing for input: Hello, World!
+2024-10-29 22:37:28.422 -05:00 [INF] Starting text processing for input: 4ab58a05-fa30-44c4-a94f-96c3dd3c5b28
+2024-10-29 22:41:30.173 -05:00 [INF] Completed text processing for input: 4ab58a05-fa30-44c4-a94f-96c3dd3c5b28
+2024-10-29 22:41:30.177 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 541763.714ms
+2024-10-29 22:41:30.181 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:41:30.184 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - 200 null text/event-stream 541781.3642ms
+2024-10-29 22:41:31.205 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - null null
+2024-10-29 22:41:31.208 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:41:31.209 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:41:31.212 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:41:31.216 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 22:41:31.217 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 2.4281ms
+2024-10-29 22:41:31.220 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:41:31.221 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - 404 null text/plain; charset=utf-8 16.1338ms
+2024-10-29 22:41:33.235 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - null null
+2024-10-29 22:41:33.238 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:41:33.239 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:41:33.240 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:41:33.243 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 22:41:33.244 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 2.113ms
+2024-10-29 22:41:33.246 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:41:33.248 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - 404 null text/plain; charset=utf-8 12.2428ms
+2024-10-29 22:41:36.259 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - null null
+2024-10-29 22:41:36.270 -05:00 [INF] CORS policy execution successful.
+2024-10-29 22:41:36.272 -05:00 [INF] Executing endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:41:36.273 -05:00 [INF] Route matched with {action = "StreamProcessing", controller = "TextProcessing"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StreamProcessing(System.String) on controller TextProcessor.API.Controllers.TextProcessingController (TextProcessor.API).
+2024-10-29 22:41:36.277 -05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2024-10-29 22:41:36.279 -05:00 [INF] Executed action TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API) in 1.759ms
+2024-10-29 22:41:36.280 -05:00 [INF] Executed endpoint 'TextProcessor.API.Controllers.TextProcessingController.StreamProcessing (TextProcessor.API)'
+2024-10-29 22:41:36.281 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/api/textprocessing/stream/4ab58a05-fa30-44c4-a94f-96c3dd3c5b28 - 404 null text/plain; charset=utf-8 22.0223ms
