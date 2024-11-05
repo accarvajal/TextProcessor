@@ -1,26 +1,28 @@
-<div class="container">
-  <h1>Text Processor</h1>
+<div class="container py-4">
+  <h1 class="mb-4">Text Processor</h1>
 
   <form [formGroup]="form" (ngSubmit)="onSubmit()">
-    <div class="form-group">
-      <label for="inputText">Enter text to process:</label>
+    <div class="form-group mb-3">
+      <label for="inputText" class="form-label">Enter text to process:</label>
       <textarea
         id="inputText"
         formControlName="inputText"
         class="form-control"
-        rows="3">
+        rows="3"
+        [class.is-invalid]="form.get('inputText')?.errors?.['required'] && form.get('inputText')?.touched">
       </textarea>
       
-      <div class="error-message" *ngIf="form.get('inputText')?.errors?.['required'] && form.get('inputText')?.touched">
+      <div class="invalid-feedback" *ngIf="form.get('inputText')?.errors?.['required'] && form.get('inputText')?.touched">
         Text is required
       </div>
     </div>
 
-    <div class="button-group">
+    <div class="d-flex gap-2 mb-4">
       <button 
         type="submit" 
         class="btn btn-primary" 
         [disabled]="isProcessing || !form.valid">
+        <span *ngIf="isProcessing" class="spinner-border spinner-border-sm me-2"></span>
         Process
       </button>
 
@@ -34,15 +36,19 @@
     </div>
   </form>
 
-  <div class="result-section" *ngIf="processedText || isProcessing">
-    <h2>Result:</h2>
-    <div class="result-box">
-      <span>{{ processedText }}</span>
-      <span *ngIf="isProcessing" class="processing-indicator">{{ processedText ? '' : 'Processing...' }}</span>
+  <div class="mt-4" *ngIf="isProcessing">
+    <h2 class="h4 mb-3">Processing:</h2>
+    <app-progress-bar [progress]="progress"></app-progress-bar>
+  </div>
+
+  <div class="mt-4" *ngIf="processedText">
+    <h2 class="h4 mb-3">Result:</h2>
+    <div class="card">
+      <div class="card-body">
+        <span>{{ processedText }}</span>
+      </div>
     </div>
   </div>
 
-  <div class="error-alert" *ngIf="error">
-    {{ error }}
-  </div>
+  <app-error-message [message]="error"></app-error-message>
 </div>

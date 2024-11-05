@@ -26,17 +26,68 @@ describe('TextProcessingService', () => {
     httpController.verify();
   });
 
-  it('should process text successfully', () => {
+  it('should process text successfully', (done) => {
     const testText = 'test input';
     const jobId = '123';
+    const totalLength = 100;
 
-    service.processText(testText).subscribe();
+    // Mock EventSource
+    const mockEventSource = {
+      onmessage: null as any,
+      onerror: null as any,
+      onopen: null as any,
+      readyState: 0,
+      close: jasmine.createSpy('close'),
+      CLOSED: 2,
+      CONNECTING: 0,
+      OPEN: 1,
+      url: '',
+      withCredentials: false,
+      addEventListener: jasmine.createSpy('addEventListener'),
+      dispatchEvent: jasmine.createSpy('dispatchEvent'),
+      removeEventListener: jasmine.createSpy('removeEventListener')
+    } as EventSource;
 
-    const req = httpController.expectOne(`${testBaseUrl}/api/textprocessing/process`);
-    expect(req.request.method).toEqual('POST');
-    expect(req.request.body).toEqual({ text: testText });
-    expect(req.request.headers.get('Accept')).toBe('text/plain');
-    req.flush(jobId);
+    spyOn(window, 'EventSource').and.returnValue(mockEventSource);
+
+    service.processText(testText).subscribe({
+      next: (response) => {
+        expect(response).toBeTruthy();
+        expect(response.processedText).toBe('processed text');
+        expect(response.jobId).toBe(jobId);
+        done();
+      },
+      error: (error) => {
+        done.fail(error);
+      }
+    });
+
+    // Handle the initial POST request
+    const postReq = httpController.expectOne(`${testBaseUrl}/api/textprocessing/process`);
+    expect(postReq.request.method).toEqual('POST');
+    expect(postReq.request.body).toEqual({ text: testText });
+    postReq.flush(jobId);
+
+    // Handle the length request
+    const lengthReq = httpController.expectOne(`${testBaseUrl}/api/textprocessing/length/${jobId}`);
+    expect(lengthReq.request.method).toEqual('GET');
+    lengthReq.flush({ totalLength });
+
+    // Simulate EventSource message
+    setTimeout(() => {
+      if (mockEventSource.onmessage) {
+        mockEventSource.onmessage(new MessageEvent('message', {
+          data: 'processed text',
+          lastEventId: '',
+          origin: window.location.origin,
+          ports: [],
+          source: null,
+          bubbles: false,
+          cancelable: false,
+          composed: false
+        }));
+      }
+    });
   });
 
   it('should handle processing error', () => {
@@ -58,16 +109,22 @@ describe('TextProcessingService', () => {
     req.error(new ErrorEvent('Network error'), errorResponse);
   });
 
-  it('should cancel processing', () => {
+  it('should cancel processing', (done) => {
     const jobId = '123';
     service['currentJobId'] = jobId;
 
-    service.cancelProcessing().subscribe(response => {
-      expect(response).toBeUndefined();
+    service.cancelProcessing().subscribe({
+      next: () => {
+        expect(service['currentJobId']).toBeNull();
+        done();
+      },
+      error: (error) => {
+        done.fail(error);
+      }
     });
 
     const req = httpController.expectOne(`${testBaseUrl}/api/textprocessing/cancel/${jobId}`);
     expect(req.request.method).toBe('POST');
-    req.flush(null);
+    req.flush({});
   });
 });

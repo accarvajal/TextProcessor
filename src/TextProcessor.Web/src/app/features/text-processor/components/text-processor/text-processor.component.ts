@@ -14,6 +14,7 @@ export class TextProcessorComponent implements OnDestroy {
   processedText = '';
   isProcessing = false;
   error: string | null = null;
+  progress = 0;
   private destroy$ = new Subject<void>();
 
   constructor(
@@ -75,6 +76,7 @@ export class TextProcessorComponent implements OnDestroy {
     this.isProcessing = true;
     this.error = null;
     this.processedText = '';
+    this.progress = 0;
     this.form.disable();
 
     this.textProcessingService.processText(text)
@@ -82,16 +84,19 @@ export class TextProcessorComponent implements OnDestroy {
       .subscribe({
         next: (response: ProcessingResponse) => {
           this.processedText += response.processedText;
+          this.progress = response.progress;
           this.cd.detectChanges();
         },
         error: (err) => {
           this.error = err.error?.message || 'An error occurred while processing';
           this.isProcessing = false;
+          this.progress = 0;
           this.form.enable();
           this.cd.detectChanges();
         },
         complete: () => {
           this.isProcessing = false;
+          this.progress = 100;
           this.form.enable();
           this.cd.detectChanges();
         }

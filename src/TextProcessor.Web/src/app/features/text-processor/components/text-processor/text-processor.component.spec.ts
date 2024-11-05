@@ -77,7 +77,9 @@ describe('TextProcessorComponent', () => {
     const errorMessage = 'Test error';
     component.error = errorMessage;
     fixture.detectChanges();
-    const errorElement = fixture.debugElement.query(By.css('.error-alert'));
-    expect(errorElement.nativeElement.textContent).toContain(errorMessage);
+
+    const errorElement = fixture.debugElement.query(By.css('.alert-danger'));
+    expect(errorElement).toBeTruthy();
+    expect(errorElement.nativeElement.textContent.trim()).toBe(errorMessage);
   });
 });

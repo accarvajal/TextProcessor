@@ -1,7 +1,7 @@
 import { Inject, Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable, Subject } from 'rxjs';
-import { environment } from '../../../../environments/environment';
+import { Observable, Subject, from, throwError } from 'rxjs';
+import { catchError, tap, switchMap } from 'rxjs/operators';
 import { ProcessingResponse } from '@shared/models/processing-response.interface';
 
 @Injectable({
@@ -11,6 +11,8 @@ export class TextProcessingService {
   private baseUrl: string;
   private currentJobId: string | null = null;
   private eventSource: EventSource | null = null;
+  private totalChars: number = 0;
+  private processedChars: number = 0;
 
   constructor(
     private http: HttpClient,
@@ -20,56 +22,87 @@ export class TextProcessingService {
   }
 
   processText(text: string): Observable<ProcessingResponse> {
-    const result = new Subject<ProcessingResponse>();
-    const payload = { text: text };
+    const payload = { text };
     const headers = new HttpHeaders().set('Accept', 'text/plain');
 
-    this.http.post(`${this.baseUrl}/api/textprocessing/process`, payload, {
-      headers: headers,
-      responseType: 'text'
-    }).subscribe({
-      next: (jobId: string) => {
+    return this.http.post(`${this.baseUrl}/api/textprocessing/process`, payload, {
+      headers,
+      responseType: 'text',
+      withCredentials: true
+    }).pipe(
+      tap((jobId: string) => {
         this.currentJobId = jobId;
-        this.setupEventSource(jobId, result);
-      },
-      error: (error) => {
-        result.error(error);
-      }
-    });
-
-    return result.asObservable();
+        this.processedChars = 0; // Reset counter
+      }),
+      switchMap((jobId: string) => {
+        return this.http.get<{totalLength: number}>(`${this.baseUrl}/api/textprocessing/length/${jobId}`).pipe(
+          tap(response => {
+            this.totalChars = response.totalLength;
+          }),
+          switchMap(() => this.createEventSourceObservable(jobId))
+        );
+      }),
+      catchError(error => {
+        this.closeEventSource();
+        return throwError(() => error);
+      })
+    );
   }
 
-  private setupEventSource(jobId: string, result: Subject<ProcessingResponse>): void {
-    if (this.eventSource) {
-      this.eventSource.close();
-    }
-
-    const url = `${this.baseUrl}/api/textprocessing/stream/${jobId}`;
-    this.eventSource = new EventSource(url);
-    
-    this.eventSource.onmessage = (event) => {
-      if (!event.data) {
-        this.closeEventSource();
-        result.complete();
-        return;
+  private createEventSourceObservable(jobId: string): Observable<ProcessingResponse> {
+    return new Observable<ProcessingResponse>(observer => {
+      if (this.eventSource) {
+        this.eventSource.close();
       }
+  
+      const username = 'admin';
+      const password = 'password';
+      const credentials = btoa(`${username}:${password}`);
+      const url = `${this.baseUrl}/api/textprocessing/stream/${jobId}?auth=${credentials}`;
+      this.eventSource = new EventSource(url);
+  
+      let isCompleting = false;
 
-      result.next({
-        jobId: jobId,
-        processedText: event.data
-      });
-    };
+      this.eventSource.onmessage = (event) => {
+        if (!event.data) {
+          if (!isCompleting) {
+            isCompleting = true;
+            observer.next({
+              jobId,
+              processedText: '',
+              progress: 100
+            });
+          }
 
-    this.eventSource.onerror = (error) => {
-      // Only complete if the connection is actually closed
-      if (this.eventSource?.readyState === EventSource.CLOSED) {
+          this.closeEventSource();
+          observer.complete();
+          return;
+        }
+  
+        this.processedChars += event.data.length;
+        // Cap progress at 95% until completion
+        const progress = Math.min(Math.round((this.processedChars / this.totalChars) * 95), 95);
+
+        observer.next({
+          jobId,
+          processedText: event.data,
+          progress
+        });
+      };
+  
+      this.eventSource.onerror = (error) => {
+        if (this.eventSource?.readyState === EventSource.CLOSED) {
+          this.closeEventSource();
+          observer.complete();
+        } else {
+          observer.error(error);
+        }
+      };
+  
+      return () => {
         this.closeEventSource();
-        result.complete();
-      } else {
-        result.error(error);
-      }
-    };
+      };
+    });
   }
 
   private closeEventSource(): void {
@@ -82,22 +115,20 @@ export class TextProcessingService {
 
   cancelProcessing(): Observable<void> {
     if (!this.currentJobId) {
-      return new Observable(subscriber => subscriber.complete());
+      return from(Promise.resolve());
     }
 
     const jobId = this.currentJobId;
-    return new Observable(subscriber => {
-      this.http.post<void>(`${this.baseUrl}/api/textprocessing/cancel/${jobId}`, {})
-        .subscribe({
-          next: () => {
-            this.closeEventSource();
-            subscriber.next();
-            subscriber.complete();
-          },
-          error: (error) => {
-            subscriber.error(error);
-          }
-        });
-    });
+    return this.http.post<void>(`${this.baseUrl}/api/textprocessing/cancel/${jobId}`, {}, {
+      withCredentials: true
+    }).pipe(
+      tap(() => {
+        this.closeEventSource();
+      }),
+      catchError(error => {
+        this.closeEventSource();
+        return throwError(() => error);
+      })
+    );
   }
 }

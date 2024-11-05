@@ -10,6 +10,7 @@ import { TextProcessorModule } from './features/text-processor/text-processor.mo
 import { errorInterceptor } from './core/interceptors/error.interceptor';
 import { loadingInterceptor } from './core/interceptors/loading.interceptor';
 import { environment } from 'src/environments/environment';
+import { authInterceptor } from './core/interceptors/auth.interceptor';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { environment } from 'src/environments/environment';
     { provide: 'BASE_URL', useValue: environment.apiUrl },
     provideHttpClient(
       withInterceptors([
+        authInterceptor,
         errorInterceptor,
         loadingInterceptor
       ])

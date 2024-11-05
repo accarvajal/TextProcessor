@@ -68,6 +68,15 @@ public class TextProcessingService : ITextProcessingService
         return Task.FromResult(new ProcessingResult { IsValid = true });
     }
 
+    public Task<int> GetProcessedTextLengthAsync(string jobId)
+    {
+        if (!_processedResults.TryGetValue(jobId, out var processedText))
+        {
+            return Task.FromResult(0);
+        }
+        return Task.FromResult(processedText.Length);
+    }
+
     private static string GenerateProcessedString(string input)
     {
         // Group characters, count occurrences, and sort alphabetically

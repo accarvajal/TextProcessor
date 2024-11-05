@@ -44,10 +44,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<ErrorHandlingMiddleware>();
-app.UseHttpsRedirection();
+app.UseRouting();
 app.UseCors("AllowAngularApp");
+app.UseAuthentication();
 app.UseAuthorization();
+app.UseMiddleware<ErrorHandlingMiddleware>();
+app.UseMiddleware<BasicAuthMiddleware>();
 app.MapControllers();
 
 app.Run();

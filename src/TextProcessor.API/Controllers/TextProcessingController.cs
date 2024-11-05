@@ -81,4 +81,24 @@ public class TextProcessingController : ControllerBase
             return StatusCode(500, "An error occurred while cancelling the job");
         }
     }
+
+    [HttpGet("length/{jobId}")]
+    public async Task<IActionResult> GetProcessedLength(string jobId)
+    {
+        if (!_jobManager.IsJobRunning(jobId))
+        {
+            return NotFound("Job not found or already completed");
+        }
+
+        try
+        {
+            var length = await _textProcessingService.GetProcessedTextLengthAsync(jobId);
+            return Ok(new { totalLength = length });
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error getting processed text length for job {JobId}", jobId);
+            return StatusCode(500, "An error occurred while getting the text length");
+        }
+    }
 }
