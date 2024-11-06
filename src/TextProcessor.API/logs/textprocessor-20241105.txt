@@ -1,0 +1,12 @@
+2024-11-05 15:13:17.910 -05:00 [INF] Now listening on: http://localhost:5277
+2024-11-05 15:13:18.012 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-05 15:13:18.014 -05:00 [INF] Hosting environment: Development
+2024-11-05 15:13:18.015 -05:00 [INF] Content root path: C:\Users\aldemar_cuartas\source\repos\Assessments\TextProcessor\src\TextProcessor.API
+2024-11-05 15:13:18.521 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/index.html - null null
+2024-11-05 15:13:18.855 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/index.html - 200 null text/html;charset=utf-8 342.2104ms
+2024-11-05 15:13:18.904 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-05 15:13:18.911 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.3608ms
+2024-11-05 15:13:18.920 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/_vs/browserLink - null null
+2024-11-05 15:13:18.995 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.4114ms
+2024-11-05 15:13:19.403 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - null null
+2024-11-05 15:13:19.518 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5277/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.8131ms

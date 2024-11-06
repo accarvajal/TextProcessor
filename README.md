@@ -133,6 +133,122 @@ Key components:
 - TextProcessorComponent: Manages the UI and user interactions
 - StreamingResult: Implements server-side streaming
 
+## Docker Support
+
+### Prerequisites
+- Docker Desktop
+- Docker Compose
+
+### Docker Configuration
+The solution includes Docker support with the following containers:
+- Frontend (Angular)
+- Backend (ASP.NET Core API)
+- Nginx (Reverse Proxy)
+
+### Running with Docker
+
+1. Build and run all containers:
+
+Navigate to the root solution directory where docker compose file is located and run the following command to build and run all containers:
+
+```bash
+docker-compose up --build
+```
+
+2. Access the application:
+- Web Interface: `http://localhost`
+- API Swagger: `http://localhost/api/swagger`
+
+### Docker Architecture
+
+The solution uses a multi-container architecture:
+
+1. **Frontend Container**:
+   - Angular application
+   - Nginx server for static file serving
+   - Built using multi-stage Dockerfile
+   - Configuration reference: `src/TextProcessor.Web/Dockerfile`
+
+2. **Backend Container**:
+   - ASP.NET Core API
+   - Built using multi-stage Dockerfile
+   - Configuration reference: `src/TextProcessor.API/Dockerfile`
+
+3. **Nginx Reverse Proxy**:
+   - Routes requests to appropriate services
+   - Handles SSL termination
+   - Basic authentication for API endpoints
+   - Configuration reference: `src/TextProcessor.Web/nginx/default.conf`
+
+### Container Communication
+- Frontend -> Nginx Proxy -> Backend API
+- All services connected through Docker network
+- Environment-specific configurations handled through Docker environment variables
+
+### Development with Docker
+
+1. Building individual services:
+
+Build frontend
+```bash
+docker-compose build web
+```
+Build backend
+```bash
+docker-compose build api
+```
+Build nginx
+```bash 
+docker-compose build nginx
+```
+
+2. Viewing logs:
+
+View frontend logs
+```bash
+docker-compose logs -f web
+```
+
+3. Stopping services:
+
+Stop all services
+```bash
+docker-compose down
+```
+
+### Environment Configuration
+The solution includes different environment configurations:
+- Development: Local development setup
+- Docker: Containerized environment
+- Production: Production-ready setup
+
+Environment files location:
+typescript: `src/TextProcessor.Web/src/environments/environment.docker.ts`
+
+
+### Docker Compose Configuration
+The solution uses Docker Compose for orchestrating multiple containers:
+- Network configuration
+- Container dependencies
+- Volume mappings
+- Environment variables
+
+### Troubleshooting Docker Setup
+
+1. **Container Access Issues**:
+   - Check container status: `docker ps`
+   - View container logs: `docker-compose logs [service_name]`
+   - Verify network connectivity: `docker network ls`
+
+2. **Build Issues**:
+   - Clear Docker cache: `docker-compose build --no-cache`
+   - Remove unused images: `docker system prune`
+
+3. **Authentication Issues**:
+   - Verify .htpasswd file is properly mounted
+   - Default credentials: admin/password
+
+
 ## Development
 
 ### Running Tests

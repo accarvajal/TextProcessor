@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint",
+    "test:coverage": "ng test --code-coverage --no-watch",
+    "build:docker": "ng build --configuration=docker"
   },
   "private": true,
   "dependencies": {
